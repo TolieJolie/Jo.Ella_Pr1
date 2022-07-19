@@ -24,6 +24,18 @@ body{
     border-radius: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 50px auto;
+        max-width: 450px;
+        width: 100%;
+        display: block;
+        font-family: Red Hat Display, sans-serif;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+
 .one{
     text-align: center;
     padding: 0px 100px;
@@ -60,6 +72,7 @@ h1, #plan {
     display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 100%;
 }
 
 section{
@@ -107,7 +120,7 @@ section{
 #cancel{
     border: none;
     border-radius: 10px;
-    padding-bottom: 20%;
+    padding-bottom: 20px;
     color: rgb(70, 70, 199);
     background-color: white;
     font-size: 13px;
