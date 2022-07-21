@@ -24,8 +24,8 @@ body{
     background-image: url("../images/pattern-background-desktop.svg");
     background-color: hsl(225, 100%, 94%);
     opacity: 0.9;
-    
 }
+
 .container{
     margin: 50px auto;
     max-width: 450px;
@@ -58,7 +58,7 @@ h1, #plan {
 
 #plan{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1px;
     padding-top: 20px;
 }
@@ -101,6 +101,11 @@ section{
     cursor: pointer;
 }
 
+#change:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+
 .btn {
     margin: auto;
     text-align: center;
@@ -118,16 +123,25 @@ section{
     cursor: pointer;
 }
 
+#pay:hover{
+    opacity: 0.7;
+}
+
 #cancel{
     border: none;
     border-radius: 10px;
     padding-bottom: 50px;
     color: rgb(70, 70, 199);
     background-color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
+    word-spacing: -2px;
+    opacity: 0.8;
     cursor: pointer;
 }
 
+#cancel:hover{
+    color: hsl(225, 89%, 15%);
+}
 
 
